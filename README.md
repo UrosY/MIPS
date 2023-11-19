@@ -13,6 +13,7 @@ Unutar beskonačne while petlje nalaze se dve for petlja. Prva for petlja predst
 Prva for petlja se izvršava četiri puta. Broj ponavljanja impulsa u prvom cikulusu je broj slova u imenu. Setujemo pin 2 na portu B i čekamo 4 mili sekunde. Dužina čekanja je širina impulsa izabrana na osnovu dužine imena. Nakon toga resetujemo pin 2 na portu B i čekamo 10 mili sekunde što je dužina pauze izabrana na osnovu dužine prezimena.
 
 Druga for petlja se izvršava deset puta. Broj ponavljanja impulsa u drugom ciklusu je broj slova u prezimenu. Setujemo pin 2 na portu B i čekamo 10 mili sekunde. Dužina čekanja je širina impulsa izabrana na osnovu dužine prezimena. Nakon toga resetujemo pin 2 na portu B i čekamo 4 mili sekunde što je dužina pauze izabrana na osnovu dužine imena.
+
 KOD-------------------------------------
 while (1) // beskonačna petlja
 	      {
